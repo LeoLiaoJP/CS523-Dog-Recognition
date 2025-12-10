@@ -12,6 +12,13 @@ This repository contains code for our CS523 project on open-set dog breed recogn
   EMA, and a confidence-based open-set rule. This is the model that achieves **94.98%**
   validation accuracy on the 121-class open-set benchmark (120 known breeds + 1 Unknown).
 
+- `vit-b.ipynb`  
+  ViT-B/16 Vision Transformer fine-tuned on the 121-class open-set benchmark
+  (120 known breeds + 1 Unknown) with an explicit Unknown class and the same
+  confidence-based open-set rule as ConvNeXt. This model achieves **86.26%**
+  validation accuracy.
+
+
 ## Usage
 
 1. Install dependencies (PyTorch, torchvision, timm, etc.).
